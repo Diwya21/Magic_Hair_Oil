@@ -1,0 +1,46 @@
+.header {
+  background-color: #665050;
+  padding:20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 90px; /* Adjust the height to fit your design */
+  margin-right: 15px; /* Adds space between the logo and the text */
+  margin-left: 50px;
+  border-radius: 50%;
+}
+
+.header h2 {
+  margin: 0;
+  color: white;
+  font-size: 40px;
+}
+
+.header nav {
+  display: flex;
+  margin-right: 50px;
+}
+
+.header nav a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+  

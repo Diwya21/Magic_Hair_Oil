@@ -1,0 +1,66 @@
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a default font */
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes the full viewport height */
+    width: 100%;
+}
+
+.ShoppingCart {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: space-between; /* Center items vertically */
+    min-height: 100vh; /* Full viewport height */
+    width: auto; /* Full width of the body */
+    background: linear-gradient(to bottom right, #f4ec06, #ffffff); /* Light background color */
+    padding: 80px 60px 0px 0px; /* Padding around the content */
+    text-align: center; /* Center text */
+    margin-top: auto;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 350px;
+    width: 100%; /* Ensure cart items take full width */
+    justify-content: center; /* Center the cart items */
+}
+
+.main-image {
+    width: 400px; /* Image width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0px 80px 20px 50px; /* Margin for spacing */
+}
+
+.item-details {
+    text-align: left; /* Align text to the left */
+}
+
+.item-details h2 {
+    margin: 0; /* Remove margin */
+}
+
+.cart-summary {
+    margin-top: 20px; /* Space above the summary */
+    width: 100%; /* Full width for summary */
+}
+
+.shopcart {
+    background-color: #d46e26; /* Button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    margin-bottom: 50px; /* Space below the button */
+    width: auto; /* Button takes natural width */
+}
+
+.shopcart:hover {
+    background-color: #b55c20; /* Darker button color on hover */
+}
+
+/* Full-width footer */

@@ -1,0 +1,95 @@
+
+
+.payment-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../assets/paymentbackground.jpg'); /* Update the path as necessary */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    padding: 0 538px;
+  }
+  
+  .payment-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: rgb(249, 245, 245);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* This ensures the text is aligned to the left */
+  }
+  
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 247, 247, 0.2);
+    color: white;
+    font-size: 16px;
+    padding-right: 0;
+  }
+  
+  .expiration-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .expiration-input {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: rgba(244, 241, 241, 0.2);
+    color: white;
+    font-size: 16px;
+  }
+  
+  .payment-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .payment-icons img {
+    width: 300px; /* Adjust as needed */
+  }
+  
+  .pay-now-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .pay-now-btn:hover {
+    background-color: darkred;
+  }
+  
